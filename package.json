@@ -1,0 +1,23 @@
+{
+  "name": "github-actions-cron-to-csv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "action": "node ./action.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielkhoo/cron-to-csv.git"
+  },
+  "keywords": [
+    "actions"
+  ],
+  "author": "danielkhoo",
+  "license": "MIT",
+  "homepage": "https://github.com/danielkhoo/cron-to-csv#readme",
+  "dependencies": {
+    "csv": "^5.3.2",
+    "node-fetch": "^2.6.0"
+  }
+}
